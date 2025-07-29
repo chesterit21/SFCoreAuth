@@ -1,75 +1,38 @@
-## Ignore bin and obj folders everywhere
-**/bin/
-**/obj/
-
+## Ignore bin and obj folders (recursive, all casing)
 **/[Bb]in/
 **/[Oo]bj/
+
+## Ignore logs and build outputs
+logs/
+*.log
+*.dll
+*.exe
+*.pdb
 
 ## Ignore user-specific files
 *.user
 *.suo
-*.userosscache
-*.sln.docstates
+.vs/
 
-## Ignore logs (e.g., from Serilog)
-logs/
-*.log
-
-## Ignore build results
-*.dll
-*.exe
-*.app
-*.out
-*.pdb
-
-## Ignore publish folder
+## Ignore publish and wwwroot artifacts
 publish/
 wwwroot/dist/
 wwwroot/assets/
 
-## Ignore Rider / VS Code
+## Ignore editor configs
 .idea/
 .vscode/
-.vs/
 
-## Ignore temporary files
+## Ignore temporary and OS files
 *.tmp
-*.temp
 *.bak
-*.swp
 *.DS_Store
 Thumbs.db
 
-## Ignore EF Core migrations snapshot files (optional)
+## EF Core Migrations Snapshots
 **/Migrations/*Snapshot.cs
 
-## Ignore secrets and sensitive configs (if any)
-secrets.json
-appsettings.Development.json
-
-## Ignore Docker artifacts
+## Docker & Environment
 docker-compose.override.yml
-docker-compose.*.yml
-.env
 .docker/
-
-## Ignore compiled Razor views
-**/obj/**/Razor/
-
-## Ignore node_modules (if SPA client lives inside solution folder)
-node_modules/
-
-## Optional: Ignore Test Results
-TestResults/
-*.trx
-*.coverage
-
-## Ignore ReSharper
-_ReSharper*/
-*.DotSettings.user
-
-## Ignore JetBrains Rider
-.idea/
-
-## Ignore Mac system files
-.DS_Store
+.env
