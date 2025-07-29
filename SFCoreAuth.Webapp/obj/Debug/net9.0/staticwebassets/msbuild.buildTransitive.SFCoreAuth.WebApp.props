@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SFCoreAuth.WebApp.props" />
-</Project>
