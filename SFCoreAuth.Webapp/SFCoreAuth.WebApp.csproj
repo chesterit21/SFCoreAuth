@@ -25,8 +25,11 @@
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.7" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.7" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="OpenIddict.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="7.0.0" />
     <PackageReference Include="OpenIddict.Validation.AspNetCore" Version="7.0.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,15 +39,25 @@
 
 <ItemGroup>
   <Using Include="System" />
+  <Using Include="System.IO.Compression" />
   <Using Include="System.Linq" />
+  <Using Include="System.Net" />
+  <Using Include="System.Text.Json" />
   <Using Include="System.Threading.Tasks" />
   <Using Include="Microsoft.AspNetCore.Mvc" />
+  <Using Include="Microsoft.AspNetCore.ResponseCompression" />
   <Using Include="Microsoft.AspNetCore.Authorization" />
   <Using Include="Microsoft.AspNetCore.Identity" />
   <Using Include="Microsoft.AspNetCore.Authentication" />
+  <Using Include="Microsoft.EntityFrameworkCore" />
+
   <Using Include="SFCoreAuth.Domain" />
+  <Using Include="SFCoreAuth.Domain.Entities" />
+  <Using Include="SFCoreAuth.Application" />
   <Using Include="SFCoreAuth.Application.ViewModels" />
+  <Using Include="Serilog" />
   <Using Include="SFCoreAuth.Infrastructure" />
+  <Using Include="SFCoreAuth.Infrastructure.Data" />
 </ItemGroup>
 
 </Project>

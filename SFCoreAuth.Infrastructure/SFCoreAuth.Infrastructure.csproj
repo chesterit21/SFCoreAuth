@@ -31,6 +31,7 @@
   <Using Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
   <Using Include="OpenIddict.EntityFrameworkCore" />
   <Using Include="SFCoreAuth.Domain" />
+  <Using Include="SFCoreAuth.Domain.Entities" />
 </ItemGroup>
 
 </Project>
