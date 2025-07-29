@@ -1,0 +1,12 @@
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\bin\Debug\net9.0\SFCoreAuth.Infrastructure.deps.json
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\bin\Debug\net9.0\SFCoreAuth.Infrastructure.dll
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\bin\Debug\net9.0\SFCoreAuth.Infrastructure.pdb
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\SFCoreAuth.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\SFCoreAuth.Infrastructure.AssemblyInfoInputs.cache
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\SFCoreAuth.Infrastructure.AssemblyInfo.cs
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\SFCoreAuth.Infrastructure.csproj.CoreCompileInputs.cache
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\SFCoreAuth.Infrastructure.sourcelink.json
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\SFCoreAuth.Infrastructure.dll
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\refint\SFCoreAuth.Infrastructure.dll
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\SFCoreAuth.Infrastructure.pdb
+C:\TesterApps\SFCoreAuthApp\SFCoreAuth\SFCoreAuth.Infrastructure\obj\Debug\net9.0\ref\SFCoreAuth.Infrastructure.dll
