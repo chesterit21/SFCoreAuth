@@ -4,14 +4,89 @@
     "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\SFCoreAuth.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\SFCoreAuth.WebApp.csproj": {
+    "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Application\\SFCoreAuth.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\SFCoreAuth.WebApp.csproj",
-        "projectName": "SFCoreAuth.WebApp",
-        "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\SFCoreAuth.WebApp.csproj",
+        "projectUniqueName": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Application\\SFCoreAuth.Application.csproj",
+        "projectName": "SFCoreAuth.Application",
+        "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Application\\SFCoreAuth.Application.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\obj\\",
+        "outputPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Domain\\SFCoreAuth.Domain.csproj": {
+                "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Domain\\SFCoreAuth.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Domain\\SFCoreAuth.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Domain\\SFCoreAuth.Domain.csproj",
+        "projectName": "SFCoreAuth.Domain",
+        "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Domain\\SFCoreAuth.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +124,247 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Infrastructure\\SFCoreAuth.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Infrastructure\\SFCoreAuth.Infrastructure.csproj",
+        "projectName": "SFCoreAuth.Infrastructure",
+        "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Infrastructure\\SFCoreAuth.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Domain\\SFCoreAuth.Domain.csproj": {
+                "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Domain\\SFCoreAuth.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "OpenIddict.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\SFCoreAuth.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\SFCoreAuth.WebApp.csproj",
+        "projectName": "SFCoreAuth.WebApp",
+        "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\SFCoreAuth.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Webapp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Application\\SFCoreAuth.Application.csproj": {
+                "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Application\\SFCoreAuth.Application.csproj"
+              },
+              "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Infrastructure\\SFCoreAuth.Infrastructure.csproj": {
+                "projectPath": "C:\\TesterApps\\SFCoreAuthApp\\SFCoreAuth\\SFCoreAuth.Infrastructure\\SFCoreAuth.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.AspNetCore.DataProtection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.AspNetCore.ResponseCompression": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "OpenIddict.Validation.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

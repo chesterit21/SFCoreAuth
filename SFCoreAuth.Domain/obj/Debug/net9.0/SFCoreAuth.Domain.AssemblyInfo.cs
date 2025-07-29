@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SFCoreAuth.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43efb1a87e609c6457a2ac2f74cfb08c06b082f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce1652350acf4be43c273588c0fd2fac38f04133")]
 [assembly: System.Reflection.AssemblyProductAttribute("SFCoreAuth.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SFCoreAuth.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

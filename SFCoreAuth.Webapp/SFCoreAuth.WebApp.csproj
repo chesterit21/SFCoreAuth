@@ -6,4 +6,45 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="9.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="9.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="9.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="OpenIddict.Validation.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SFCoreAuth.Application\SFCoreAuth.Application.csproj" />
+    <ProjectReference Include="..\SFCoreAuth.Infrastructure\SFCoreAuth.Infrastructure.csproj" />
+  </ItemGroup>
+
+<ItemGroup>
+  <Using Include="System" />
+  <Using Include="System.Linq" />
+  <Using Include="System.Threading.Tasks" />
+  <Using Include="Microsoft.AspNetCore.Mvc" />
+  <Using Include="Microsoft.AspNetCore.Authorization" />
+  <Using Include="Microsoft.AspNetCore.Identity" />
+  <Using Include="Microsoft.AspNetCore.Authentication" />
+  <Using Include="SFCoreAuth.Domain" />
+  <Using Include="SFCoreAuth.Application.ViewModels" />
+  <Using Include="SFCoreAuth.Infrastructure" />
+</ItemGroup>
+
 </Project>
