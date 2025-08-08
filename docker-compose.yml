@@ -1,0 +1,40 @@
+# Versi format docker-compose
+version: '3.8'
+
+# Definisi semua layanan yang akan dijalankan
+services:
+  # Nama layanan aplikasi Anda (bisa diganti)
+  dsgames-app:
+    # Perintah untuk membangun image menggunakan Dockerfile di direktori saat ini
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Nama kontainer yang akan dibuat agar mudah diidentifikasi
+    container_name: sfcore-auth-app
+    # Memetakan port dari mesin Anda ke dalam kontainer
+    # Format: "PORT_DI_MESIN_ANDA:PORT_DI_DALAM_KONTAINER"
+    # Aplikasi bisa diakses via http://localhost:8000
+    ports:
+      - "8062:8080"
+    # Kebijakan restart: akan selalu restart kecuali dihentikan manual
+    restart: unless-stopped
+    # (Opsional) Mengatur environment variable
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      #- ConnectionStrings__DefaultConnection=Server=host.docker.internal,1433;Database=GamesMatrix;User Id=sa;Password=YourStrong@Password123;MultipleActiveResultSets=True;Encrypt=False;
+    
+      # Jika ingin menggunakan mode produksi, uncomment baris berikut:
+      #- ASPNETCORE_ENVIRONMENT=Production
+    # depends_on:
+    #   - sqlserver
+
+  # sqlserver:
+  #   image: mcr.microsoft.com/mssql/server:2022-latest
+  #   container_name: sqlserver-container
+  #   ports:
+  #     - "1433:1433"
+  #   environment:
+  #     - SA_PASSWORD=YourStrong@Password123
+  #     - ACCEPT_EULA=Y
+  #   restart: unless-stopped
+
